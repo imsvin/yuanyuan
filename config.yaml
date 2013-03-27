@@ -1,0 +1,4 @@
+name: imok
+version: 1
+handle:
+- rewrite: if( !is_file() && path ~ "^(.*)$" ) goto "/index.php/$1"
